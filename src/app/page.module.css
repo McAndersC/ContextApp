@@ -1,0 +1,65 @@
+.page {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding : 40px;
+
+}
+
+.box {
+  background-color: #000;
+  width: 100px;
+  height: 100px;
+
+}
+
+.page button {
+
+  width : 200px;
+  padding : 10px;
+  margin-bottom : 10px;
+
+}
+
+/*
+
+  BOY Skinning
+
+*/
+
+.boy.box{
+
+ background-color: blue;
+ color: white;
+
+}
+
+
+
+/*
+
+  Girl Skinning
+
+*/
+
+.girl.box{
+
+
+  background-color: pink;
+  color: black;
+
+}
+
+/*
+
+  Girl Skinning
+
+*/
+
+.girl.box .box2 {
+
+  color: red;
+
+}
+
